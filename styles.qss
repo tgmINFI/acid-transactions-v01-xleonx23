@@ -1,0 +1,61 @@
+QMainWindow {
+    background-color: #2b2b2b;
+}
+
+QLabel {
+    color: #e0e0e0;
+    font-size: 14px;
+    font-family: "Segoe UI", Arial;
+}
+
+QGroupBox {
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #f7931e; /* Safety Orange */
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+}
+
+QPushButton {
+    background-color: #f7931e;
+    color: #000;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #ffaa33;
+}
+
+QPushButton:pressed {
+    background-color: #c67618;
+}
+
+QTableWidget {
+    background-color: #333;
+    color: #ddd;
+    gridline-color: #555;
+    selection-background-color: #f7931e;
+    selection-color: #000;
+}
+
+QHeaderView::section {
+    background-color: #444;
+    color: #fff;
+    padding: 4px;
+    border: 1px solid #555;
+}
+
+QTextEdit {
+    background-color: #1e1e1e;
+    color: #00ff00; /* Hacker Terminal Green */
+    font-family: Consolas, Monospace;
+    border: 1px solid #555;
+}
